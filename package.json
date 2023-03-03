@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@three-ts/orbit-controls": "^1.4.7",
+    "@tweenjs/tween.js": "^18.6.4",
+    "ansi-html-community": "^0.0.8",
     "core-js": "^3.8.3",
     "sm-crypto": "^0.3.12",
     "three": "^0.147.0",

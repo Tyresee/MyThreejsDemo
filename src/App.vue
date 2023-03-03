@@ -5,8 +5,9 @@
   <div id="app">
     <!--    <DrawingBoard/>-->
     <!--    <ChatGen></ChatGen>-->
-    <ChatGenWithXYZ></ChatGenWithXYZ>
+<!--    <ChatGenWithXYZ></ChatGenWithXYZ>-->
     <!--    <ChatGenWithLight></ChatGenWithLight>-->
+    <CubeMoveByButton></CubeMoveByButton>
   </div>
 </template>
 
@@ -14,7 +15,8 @@
 // import DrawingBoard from './components/DrawingBoard.vue'
 // import ChatGen from "@/components/ChatGen";
 // import ChatGenWithXYZ from "@/components/ChatGenWithXYZ";
-import ChatGenWithXYZ from "@/components/ChatGenWithXYZ";
+// import ChatGenWithLight from "@/components/ChatGenWithLight";
+import CubeMoveByButton from "@/components/CubeMoveByButton";
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     // DrawingBoard,
     // ChatGen,
     // ChatGenWithXYZ
-    ChatGenWithXYZ
+    // ChatGenWithLight
+    CubeMoveByButton
   },
   mounted() {
   }
